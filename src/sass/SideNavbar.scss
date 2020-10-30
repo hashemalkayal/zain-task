@@ -1,0 +1,24 @@
+.side-navbar-container {
+  grid-area: sidebar;
+  padding-top: 12px;
+  border-right: 1px solid #ebebeb;
+
+  .list {
+    .item {
+      padding: 14px !important;
+      color: gray;
+      cursor: pointer;
+
+      &.active,
+      &:hover {
+        color: rgb(0, 197, 223);
+        background-color: rgb(230, 249, 255);
+        border-left: 4px solid rgb(0, 197, 223);
+      }
+
+      .icon {
+        margin-right: 16px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.users-container {
+  grid-area: users;
+  height: calc(100vh - 143px);
+  margin: 12px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 8px;
+
+  .page-head {
+    background-color: rgb(235, 235, 235);
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .page-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 40px);
+
+    .table-head {
+      text-align: right;
+      .ui.input {
+        input {
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .table {
+      .ellipsis {
+        cursor: pointer;
+      }
+    }
+
+    .table-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 24px 0 0;
+
+      .dropdown {
+        margin: 0 10px;
+      }
+    }
+  }
+}

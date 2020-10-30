@@ -1,0 +1,74 @@
+.login-form {
+  max-width: 330px;
+  min-width: 300px;
+  border-radius: 16px;
+  background-color: white;
+  padding: 24px;
+
+  .header {
+    text-align: center;
+
+    h1 {
+      margin: 0;
+      color: rgb(70, 70, 70);
+    }
+
+    h4 {
+      margin: 8px 0 16px;
+      color: rgb(104, 104, 104);
+    }
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .ui.input.fluid {
+    input {
+      border-radius: 12px;
+    }
+    i.icon {
+      color: rgb(8, 144, 235);
+    }
+  }
+
+  .ui.checkbox {
+    input {
+      &:checked ~ label {
+        &:after {
+          color: #4183c4 !important;
+        }
+      }
+    }
+
+    label {
+      color: #4183c4 !important;
+      &:hover {
+        color: #4183c4 !important;
+      }
+    }
+  }
+
+  .remember-me-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+  }
+
+  .divider-container {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+
+    .divider {
+      height: 1px;
+      background-color: lightgrey;
+      flex: 1;
+    }
+
+    label {
+      margin: 0 12px;
+      color: grey;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.users-page-wrapper {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "sidebar users users"
+    "sidebar footer footer";
+}

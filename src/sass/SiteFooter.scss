@@ -1,0 +1,14 @@
+.site-footer {
+  height: 60px;
+  background-color: rgb(17, 106, 189);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: footer;
+
+  .company-name {
+    color: rgb(0, 188, 235);
+    margin: 0 4px;
+  }
+}
